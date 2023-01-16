@@ -1,0 +1,25 @@
+div.heading {
+    text-align: center;
+	border: 3px solid black;
+	margin: 25px 500px 100px 500px;
+}
+h1 {
+	font-size: 40pt;
+	font-family: "Georgia";
+	height: 10pt;
+}
+img.picture {
+	width: 500px;
+    height: 500px;
+	object-fit: cover;
+}
+img.icon {
+    width: 25px;
+    height: 25px;
+}
+th {
+	font-size: 25pt
+}
+td {
+	font-size: 15pt
+}
