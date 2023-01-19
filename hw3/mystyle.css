@@ -1,13 +1,22 @@
 div.heading {
-    text-align: center;
 	border: 3px solid black;
-	margin: 2% 25% 5% 25%;
+	margin: 2% auto 4% auto;
+	width: 940px;
 }
 h1 {
-	font-size: 45pt;
+	text-align: center;
+	font-size: 50pt;
 	font-family: "Georgia";
+	font-weight: 500;
 	height: 30px;
 }
+
+div.blank {
+	height: 30px;
+	margin-left: 24%;
+	font-size: 15pt;
+}
+
 img.picture {
 	width: 500px;
     height: 500px;
@@ -28,4 +37,9 @@ a {
 	text-decoration: none;
 	color: black;
 	font-family: "Georgia";
+}
+
+div.bottom {
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
