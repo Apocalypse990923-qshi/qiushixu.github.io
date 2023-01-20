@@ -1,6 +1,6 @@
 div.heading {
 	border: 3px solid black;
-	margin: 2% auto 4% auto;
+	margin: 10px auto 20px auto;
 	width: 940px;
 }
 h1 {
@@ -10,13 +10,18 @@ h1 {
 	font-weight: 500;
 	height: 30px;
 }
-
+div.content {
+	margin: 0 auto;
+	width: 1000px;
+}
 div.blank {
 	height: 30px;
-	margin-left: 24%;
-	font-size: 15pt;
+	font-size: 24pt;
+	margin-top: 60px;
 }
-
+table.pic_table {
+	margin: 0;
+}
 img.picture {
 	width: 500px;
     height: 500px;
@@ -27,18 +32,16 @@ img.icon {
     height: 25px;
 }
 th {
-	font-size: 25pt
+	font-size: 25pt;
 }
 td {
-	font-size: 15pt
+	font-size: 15pt;
+	font-family: "Georgia",italic;
 }
-
 a {
 	text-decoration: none;
-	color: black;
-	font-family: "Georgia";
+	color: grey;
 }
-
 div.bottom {
 	margin-top: 40px;
 	margin-bottom: 20px;
